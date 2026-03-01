@@ -25,7 +25,7 @@ const About = () => (
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a dedicated software developer passionate about problem-solving and building
+              I'm a dedicated CSE Student passionate about problem-solving and building
               things that matter. With foundations in <span className="text-primary font-medium">Java</span>,{' '}
               <span className="text-secondary font-medium">C</span>, and{' '}
               <span className="text-primary font-medium">Python</span>, I continuously sharpen my
