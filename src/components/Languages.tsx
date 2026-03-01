@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const languages = [
-  { name: "Java", level: 85, desc: "Primary language — strong DSA & problem solving", color: "from-primary to-neon-pink" },
-  { name: "C", level: 70, desc: "Core programming fundamentals", color: "from-secondary to-primary" },
-  { name: "Python", level: 75, desc: "Versatile scripting & problem solving", color: "from-neon-cyan to-primary" },
+  { name: "Java", level: 52, desc: "Primary language — strong DSA & problem solving", color: "from-primary to-neon-pink" },
+  { name: "C", level: 68, desc: "Core programming fundamentals", color: "from-secondary to-primary" },
+  { name: "Python", level: 50, desc: "Versatile scripting & problem solving", color: "from-neon-cyan to-primary" },
 ];
 
 const Languages = () => (
