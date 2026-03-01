@@ -2,9 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { label: "Problems Solved", target: 200, suffix: "+" },
+  // only a few examples shown here – adjust values as needed
+  { label: "Problems Solved", target: 100, suffix: "+" },
   { label: "GitHub Repos", target: 15, suffix: "+" },
-  { label: "Learning Streak", target: 60, suffix: " days" },
+  { label: "Learning Streak", target: 15, suffix: " days" },
   { label: "Technologies", target: 8, suffix: "+" },
 ];
 

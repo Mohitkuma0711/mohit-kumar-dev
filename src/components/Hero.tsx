@@ -88,12 +88,6 @@ const Hero = () => {
             >
               <Mail size={18} /> Contact Me
             </a>
-            <a
-              href="#"
-              className="glass-card hover-card-glow px-6 py-3 font-medium flex items-center gap-2 text-foreground hover:bg-muted transition-all"
-            >
-              <Download size={18} /> Download Resume
-            </a>
           </div>
         </motion.div>
 

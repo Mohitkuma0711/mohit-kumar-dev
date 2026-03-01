@@ -26,15 +26,17 @@ const About = () => (
           <div>
             <p className="text-muted-foreground leading-relaxed mb-4">
               I'm a dedicated software developer passionate about problem-solving and building
-              things that matter. With strong foundations in <span className="text-primary font-medium">Java</span>,{" "}
-              <span className="text-secondary font-medium">C</span>, and{" "}
+              things that matter. With foundations in <span className="text-primary font-medium">Java</span>,{' '}
+              <span className="text-secondary font-medium">C</span>, and{' '}
               <span className="text-primary font-medium">Python</span>, I continuously sharpen my
-              skills through competitive coding and real-world projects.
+              skills through competitive coding and real-world projects — powered by AI companions
+              like <strong>Claude</strong>, <strong>GitHub Copilot</strong>, <strong>Cursor</strong>,
+              and <strong>Lovable</strong> that keep me coding smarter and faster.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               My vision extends beyond writing code — I'm preparing to create innovative tech
               products that combine real-world interaction with digital experiences. Every line of
-              code is a step toward that future.
+              code, every AI-assisted insight, is a step toward that future.
             </p>
           </div>
 
