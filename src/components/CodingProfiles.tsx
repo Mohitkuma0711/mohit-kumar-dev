@@ -11,7 +11,7 @@ const profiles = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/kumamohit66448",
+    url: "https://github.com/Mohitkuma0711",
     desc: "Building and pushing real projects",
   },
   {

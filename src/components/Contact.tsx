@@ -88,7 +88,7 @@ const Contact = () => {
                 Feel free to reach out for collaborations, opportunities, or just to say hi!
               </p>
               <div className="flex gap-4">
-                <a href="https://github.com/kumamohit66448" target="_blank" rel="noopener noreferrer" className="glass-card hover-card-glow p-3 text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://github.com/Mohitkuma0711" target="_blank" rel="noopener noreferrer" className="glass-card hover-card-glow p-3 text-muted-foreground hover:text-primary transition-colors">
                   <Github size={22} />
                 </a>
                 <a href="https://www.linkedin.com/in/mohit-kumar-781649308" target="_blank" rel="noopener noreferrer" className="glass-card hover-card-glow p-3 text-muted-foreground hover:text-primary transition-colors">
