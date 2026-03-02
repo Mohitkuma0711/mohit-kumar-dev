@@ -51,6 +51,52 @@
     --sidebar-border: 240 10% 16%;
     --sidebar-ring: 270 80% 65%;
   }
+
+  html.bgmi,
+  html[data-theme="bgmi"] {
+    --background: 30 20% 3%;
+    --foreground: 40 100% 95%;
+
+    --card: 30 15% 8%;
+    --card-foreground: 40 100% 95%;
+
+    --popover: 30 15% 8%;
+    --popover-foreground: 40 100% 95%;
+
+    --primary: 39 100% 55%;
+    --primary-foreground: 30 20% 8%;
+
+    --secondary: 25 95% 50%;
+    --secondary-foreground: 30 20% 8%;
+
+    --muted: 30 10% 18%;
+    --muted-foreground: 35 20% 60%;
+
+    --accent: 39 100% 60%;
+    --accent-foreground: 30 20% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 100% 95%;
+
+    --border: 30 15% 18%;
+    --input: 30 15% 14%;
+    --ring: 39 100% 55%;
+
+    --neon-purple: 280 70% 65%;
+    --neon-cyan: 180 85% 50%;
+    --neon-pink: 350 85% 60%;
+    --glass: 30 15% 8%;
+    --glass-border: 30 20% 25%;
+
+    --sidebar-background: 30 20% 5%;
+    --sidebar-foreground: 40 100% 95%;
+    --sidebar-primary: 39 100% 55%;
+    --sidebar-primary-foreground: 30 20% 8%;
+    --sidebar-accent: 30 15% 18%;
+    --sidebar-accent-foreground: 40 100% 95%;
+    --sidebar-border: 30 15% 18%;
+    --sidebar-ring: 39 100% 55%;
+  }
 }
 
 @layer base {

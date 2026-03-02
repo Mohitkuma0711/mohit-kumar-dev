@@ -5,11 +5,34 @@ import { useState } from "react";
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Placeholder — could integrate with backend
-    alert("Thanks for reaching out! I'll get back to you soon.");
-    setForm({ name: "", email: "", message: "" });
+
+    // send data to Formspree endpoint stored in env
+    const endpoint = import.meta.env.VITE_FORM_ENDPOINT;
+    if (!endpoint) {
+      alert('Form endpoint not configured.');
+      return;
+    }
+
+    try {
+      const resp = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+
+      if (resp.ok) {
+        alert('Thanks for reaching out! I\'ll get back to you soon.');
+        setForm({ name: '', email: '', message: '' });
+      } else {
+        alert('There was a problem sending your message. Please try again later.');
+        console.error('Form submission error', resp.statusText);
+      }
+    } catch (err) {
+      alert('Network error sending message.');
+      console.error(err);
+    }
   };
 
   return (

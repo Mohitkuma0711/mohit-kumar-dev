@@ -60,6 +60,20 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## Contact form setup
+
+The contact section uses a simple form that submits messages through [Formspree](https://formspree.io/).
+To enable it, create a Formspree form and copy the endpoint URL (looks like `https://formspree.io/f/xyz123`).
+Then add it to your environment variables in `.env` or `.env.local`:
+
+```
+VITE_FORM_ENDPOINT="https://formspree.io/f/xwvnjgno"
+```
+
+Restart the dev server after editing env vars. When a visitor submits the form, the data will be forwarded to the email address configured in your Formspree account (for example, you could enter **kumamohit666448@gmail.com** as the recipient).
+
+If you prefer another service (EmailJS, custom backend, etc.), update `src/components/Contact.tsx` accordingly.
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.

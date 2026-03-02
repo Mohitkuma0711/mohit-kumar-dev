@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <ThemeProvider attribute="class" defaultTheme="system">
+      <ThemeProvider attribute="class" defaultTheme="system" themes={["light", "dark", "bgmi"]}>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
